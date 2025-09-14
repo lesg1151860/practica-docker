@@ -9,7 +9,7 @@ DATA_FILE = "/data/notas.txt"
 async def guardar_nota(request: Request):
     nota = await request.body()
     with open(DATA_FILE, "a") as f:
-        f.write(nota.decode() + "\\n")
+        f.write(nota.decode() + "\n")
     return {"status": "Nota guardada"}
     
 
