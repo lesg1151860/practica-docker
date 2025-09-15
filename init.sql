@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS notas (
+    id SERIAL PRIMARY KEY,
+    contenido TEXT NOT NULL
+);

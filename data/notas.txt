@@ -1,2 +1,4 @@
 Cuartaa nota
 Pa nota
+Para la prueba visual nota
+base datos
